@@ -1,0 +1,109 @@
+html, body {
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+/*  box-sizing: border-box;*/
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.header {
+  background-color: darkcyan;
+  text-align: center;
+}
+
+.header h1 {
+  padding: 15px;
+  margin: 0;
+}
+
+.form-data {
+  background: url("http://www.freeimageslive.com/galleries/workplace/office2/preview/blank_pencil_and_pad.jpg") no-repeat center center;
+  background-size: cover;
+  height: 480px;
+
+}
+
+.form-data h2 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  margin: 0;
+  color: darkcyan;  
+  font-size: 30px;
+  text-align: right;
+}
+
+.form-input {
+  display: block;
+  margin: 20px 0px 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+
+input {
+  background-color: mintcream;
+}
+
+button {
+  display: block;
+  margin: 50px 80px auto auto;
+  padding: 10 40px;
+  background-color: darkcyan;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+}
+
+
+.table-crud {
+  background-color: green;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 20px;
+  background-color: darkcyan;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  text-transform: uppercase;
+}
+
+table td, th {
+  color: white;
+  padding: 25px 50px; 
+  border-spacing: 2px;
+  border: 2px solid black;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td a {
+  text-decoration: none;
+  color: black;
+}
+
+td a:hover {
+  color: white;
+}
+
+
